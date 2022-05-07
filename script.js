@@ -21,7 +21,7 @@
         // Pour actualiser l'heure chaque minutes, on rappelle la fonction dateEtHeure()
         // toutes les 100 millisecondes, donc toutes les secondes
         window.onload = function() {
-        setInterval("dateEtHeure()", 100);
+        setInterval(dateEtHeure, 100);
         };
 
        
