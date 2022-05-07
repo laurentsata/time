@@ -14,9 +14,7 @@
          
         // 2 - La fonction attribue du texte au div id="heure_exacte"
         // ce texte n'est autre que l'heure contenue dans l'objet infos
-        // on ne souhaite afficher que l'heure et les minutes avec infos.getHours()
-        // et infos.getMinutes(), On Sépare par ":" Ex: il est 07:00.
-         
+        
         document.getElementById('heure_exacte').innerHTML = ' ' + affichZero(infos.getHours()) + ':' + affichZero(infos.getMinutes()) + '\'\'' + affichZero(infos.getSeconds());
         }// Fin fonction dateEtHeure
          
